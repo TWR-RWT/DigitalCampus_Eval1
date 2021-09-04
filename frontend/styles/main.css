@@ -11942,13 +11942,13 @@ header.masthead .post-heading .meta a {
   color: #0085A1;
 }
 
-.post-preview > a > .post-title {
+.post-preview > .post-title {
   font-size: 1.875rem;
   margin-top: 1.875rem;
   margin-bottom: 0.625rem;
 }
 
-.post-preview > a > .post-subtitle {
+.post-preview > .post-subtitle {
   font-weight: 300;
   margin-bottom: 0.625rem;
 }
@@ -11965,12 +11965,12 @@ header.masthead .post-heading .meta a {
 }
 
 @media (min-width: 992px) {
-  .post-preview > a > .post-title {
+  .post-preview > .post-title {
     font-size: 2.25rem;
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 450px) {
   header.masthead .page-heading h1, header.masthead .page-heading .h1,
   header.masthead .site-heading h1,
   header.masthead .site-heading .h1 {
